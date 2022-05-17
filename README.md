@@ -89,3 +89,123 @@ Hasil outputnya dan akses nya : http://localhost/lab7_php_dasar/php_dasar2.php?n
 
 ![6](https://user-images.githubusercontent.com/101393632/168846274-cd7be1f4-cb40-488c-9a3a-869a70524c40.jpg)
 
+### Membuat Form input
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Form input</title>
+</head>
+
+<body>
+  <h2>Form Input</h2>
+  <form method="post">
+    <label>Nama: </label>
+    <input type="text" name="nama">
+    <input type="submit" value="Kirim">
+  </form>
+  <?php
+  echo 'Selamat Datang ' . $_POST['nama'];
+  ?>
+</body>
+
+</html
+```
+
+maka outputnya akan seperti ini :
+
+![7](https://user-images.githubusercontent.com/101393632/168857197-3a425619-bdb5-42e6-affa-dd675253a8b9.jpg)
+
+### Operator
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Operator</title>
+</head>
+
+<body>
+  <h1>Operator</h1>
+  <?php
+  $gaji = 1000000;
+  $pajak = 0.1;
+  $thp = $gaji - ($gaji * $pajak);
+  echo "Gaji sebelum pajak = Rp. $gaji <br>";
+  echo "Gaji yang dibawa pulang = Rp. $thp";
+  ?>
+
+</body>
+
+</html>
+```
+
+![8](https://user-images.githubusercontent.com/101393632/168858173-5512918d-5b03-41a9-b58c-723a358c6061.jpg)
+
+### Kondisi IF
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>If</title>
+</head>
+
+<body>
+  <h1>Kondisi If</h1>
+  <?php
+  $nama_hari = date("l");
+  if ($nama_hari == "Sunday") {
+    echo "Minggu";
+  } elseif ($nama_hari == "Monday") {
+    echo "Senin";
+  } else {
+    echo "Selasa";
+  }
+  ?>
+
+</body>
+
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/101393632/168858641-c41f7e01-cf89-4ccf-a7d5-f5d1fb8d4c0b.png)
+
+### Kondisi Switch
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Switch</title>
+</head>
+
+<body>
+  <h1>Kondisi Switch</h1>
+  <?php
+  $nama_hari = date("l");
+  switch ($nama_hari) {
+    case "sunday";
+      echo "Minggu";
+      break;
+    case "Monday";
+      echo "Senin";
+      break;
+    case "Tuesday";
+      echo "Selasa";
+      break;
+    default:
+      echo "Sabtu";
+  }
+  ?>
+
+</body>
+
+</html>
+```
+

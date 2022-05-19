@@ -209,3 +209,37 @@ maka outputnya akan seperti ini :
 </html>
 ```
 
+![10](https://user-images.githubusercontent.com/101393632/169193082-37f35e9c-c4ef-460a-b7de-6e67988a3b08.jpg)
+
+### Perulangan For
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Perulangan For</title>
+</head>
+
+<body>
+  <?php
+  echo "Perulangan 1 sampai 10 <br />";
+  for ($i = 1; $i <= 10; $i++) {
+    echo "Perulangan ke: " . $i . '<br />';
+  }
+  echo "Perulangan Menurun dari 10 ke 1 <br />";
+  for ($i = 10; $i >= 1; $i--) {
+    echo "Perulangan ke: " . $i . '<br />';
+  }
+  ?>
+</body>
+
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/101393632/169193254-e954665e-f8d4-4848-ac1a-c1c48952f404.png)
+
+### Perulangan While
+```
+
+```

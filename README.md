@@ -1,5 +1,5 @@
 # Lab7Web
-===========================
+- - -
 
 Nama    = Alfiansyah Rambe
 
@@ -7,7 +7,7 @@ NIM     = 312010338
 
 Kelas   = TI 20 B2
 
-===========================
+- - -
 
 # PRAKTIKUM 7
 ## A. Install Xampp
@@ -63,6 +63,8 @@ Hasil outputnya akan seperti ini. dan untuk mengaksesnya gunakan link ini : http
 
 ![5](https://user-images.githubusercontent.com/101393632/168843720-ba242bce-c940-437e-a7e5-fff837995e70.jpg)
 
+- - -
+
 ### Predefine Variable $_GET
 ```php
 <!DOCTYPE html>
@@ -88,6 +90,8 @@ Hasil outputnya akan seperti ini. dan untuk mengaksesnya gunakan link ini : http
 Hasil outputnya dan akses nya : http://localhost/lab7_php_dasar/php_dasar2.php?nama=Alfian
 
 ![6](https://user-images.githubusercontent.com/101393632/168846274-cd7be1f4-cb40-488c-9a3a-869a70524c40.jpg)
+
+- - -
 
 ### Membuat Form input
 ```php
@@ -118,6 +122,8 @@ maka outputnya akan seperti ini :
 
 ![7](https://user-images.githubusercontent.com/101393632/168857197-3a425619-bdb5-42e6-affa-dd675253a8b9.jpg)
 
+- - -
+
 ### Operator
 ```php
 <!DOCTYPE html>
@@ -144,6 +150,8 @@ maka outputnya akan seperti ini :
 ```
 
 ![8](https://user-images.githubusercontent.com/101393632/168858173-5512918d-5b03-41a9-b58c-723a358c6061.jpg)
+
+- - -
 
 ### Kondisi IF
 ```php
@@ -174,6 +182,8 @@ maka outputnya akan seperti ini :
 ```
 
 ![image](https://user-images.githubusercontent.com/101393632/168858641-c41f7e01-cf89-4ccf-a7d5-f5d1fb8d4c0b.png)
+
+- - -
 
 ### Kondisi Switch
 ```php
@@ -211,6 +221,8 @@ maka outputnya akan seperti ini :
 
 ![10](https://user-images.githubusercontent.com/101393632/169193082-37f35e9c-c4ef-460a-b7de-6e67988a3b08.jpg)
 
+- - -
+
 ### Perulangan For
 ```php
 <!DOCTYPE html>
@@ -239,6 +251,8 @@ maka outputnya akan seperti ini :
 
 ![image](https://user-images.githubusercontent.com/101393632/169193254-e954665e-f8d4-4848-ac1a-c1c48952f404.png)
 
+- - -
+
 ### Perulangan While
 ```php
 <!DOCTYPE html>
@@ -264,6 +278,8 @@ maka outputnya akan seperti ini :
 ```
 
 ![12](https://user-images.githubusercontent.com/101393632/169211024-61a583c0-fb14-4d2f-9c06-c8c0723238c8.jpg)
+
+- - -
 
 ### Perulangan Downwhile
 ```php
@@ -291,6 +307,8 @@ maka outputnya akan seperti ini :
 ```
 
 ![13](https://user-images.githubusercontent.com/101393632/169211079-a5dcb9ae-7b80-44d7-a60b-f4dc4c279200.jpg)
+
+- - -
 
 # TUGAS 
 sesuai dengan instruksi Tugas, diperintahkan untuk membuat sebuah form input yang menampilkan 
@@ -381,4 +399,4 @@ Dan dibawah ini adalah kodenya :
 
 ![Tugas](https://user-images.githubusercontent.com/101393632/169211306-189ddccf-88bd-4edc-9a27-90bfa21deb5c.jpg)
 
-===================================== S E L E S A I ===============================
+============================ S E L E S A I ===============================
